@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\Slider-img-3.jpg":[["Slider-img-3.a340b51c.jpg","images/Slider-img-3.jpg"],"images/Slider-img-3.jpg"],"./..\\images\\Slider-img-3@2x.jpg":[["Slider-img-3@2x.ac7eaf43.jpg","images/Slider-img-3@2x.jpg"],"images/Slider-img-3@2x.jpg"],"./..\\images\\Slider-img-3-tablet.jpg":[["Slider-img-3-tablet.bcb2541b.jpg","images/Slider-img-3-tablet.jpg"],"images/Slider-img-3-tablet.jpg"],"./..\\images\\Slider-img-3-tablet@2x.jpg":[["Slider-img-3-tablet@2x.eeaa26e0.jpg","images/Slider-img-3-tablet@2x.jpg"],"images/Slider-img-3-tablet@2x.jpg"],"./..\\images\\background-image.jpg":[["background-image.1f89f820.jpg","images/background-image.jpg"],"images/background-image.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\Slider-img-3.jpg":[["Slider-img-3.a340b51c.jpg","images/Slider-img-3.jpg"],"images/Slider-img-3.jpg"],"./..\\images\\Slider-img-3@2x.jpg":[["Slider-img-3@2x.ac7eaf43.jpg","images/Slider-img-3@2x.jpg"],"images/Slider-img-3@2x.jpg"],"./..\\images\\Slider-img-3-tablet.jpg":[["Slider-img-3-tablet.bcb2541b.jpg","images/Slider-img-3-tablet.jpg"],"images/Slider-img-3-tablet.jpg"],"./..\\images\\Slider-img-3-tablet@2x.jpg":[["Slider-img-3-tablet@2x.eeaa26e0.jpg","images/Slider-img-3-tablet@2x.jpg"],"images/Slider-img-3-tablet@2x.jpg"],"./..\\images\\Slider-img-3-desktop.jpg":[["Slider-img-3-desktop.209cc350.jpg","images/Slider-img-3-desktop.jpg"],"images/Slider-img-3-desktop.jpg"],"./..\\images\\Slider-img-3-desktop@2x.jpg":[["Slider-img-3-desktop@2x.f683d63f.jpg","images/Slider-img-3-desktop@2x.jpg"],"images/Slider-img-3-desktop@2x.jpg"],"./..\\images\\imgSectionServices.jpg":[["imgSectionServices.440cc172.jpg","images/imgSectionServices.jpg"],"images/imgSectionServices.jpg"],"./..\\images\\bbshop.jpg":[["bbshop.27cb0bcf.jpg","images/bbshop.jpg"],"images/bbshop.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61814" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62042" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
