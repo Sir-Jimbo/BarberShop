@@ -2,13 +2,12 @@
   padding-top: 84px;
   padding-bottom: 84px;
   background-color: #e5e5e5;
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 768px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
-@media screen and (min-width: 1200px) {
-  .section {
+  @media screen and (min-width: 1200px) {
     width: 1200px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -17,18 +16,18 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-@media screen and (min-width: 480px) {
-     width: 480px;
+  @media screen and (min-width: 480px) {
+    width: 480px;
     padding-left: 31px;
     padding-right: 31px;
   }
-@media screen and (min-width: 768px) {
-      width: 768px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
     padding-left: 39px;
     padding-right: 39px;
   }
-@media screen and (min-width: 1200px) {
-      width: 1200px;
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -39,13 +38,13 @@
   top: 0%;
   left: 0%;
   margin-bottom: 44px;
-@media screen and (min-width: 480px) {
-      width: 418px;
+  @media screen and (min-width: 480px) {
+    width: 418px;
   }
-@media screen and (min-width: 768px) {
-      width: 500px;
+  @media screen and (min-width: 768px) {
+    width: 500px;
   }
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     top: 50%;
     left: 50%;
   }
@@ -62,7 +61,7 @@
   transform: rotate(0deg);
 }
 .text-transform {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -73,7 +72,7 @@
 }
 .text-title {
   margin-bottom: 20px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -82,7 +81,7 @@
   color: $primery-text;
 }
 .text-section {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -98,12 +97,12 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-@media screen and (min-width: 768px) {
-     top: 0%;
+  @media screen and (min-width: 768px) {
+    top: 0%;
     left: 240px;
   }
-@media screen and (min-width: 1200px) {
-      top: -275px;
+  @media screen and (min-width: 1200px) {
+    top: -275px;
     left: 115px;
   }
 }
@@ -111,34 +110,70 @@
   position: absolute;
   top: 0%;
   left: 0%;
-  padding: 20px 33px;
+  padding: 20px 36px;
   background-color: $box-backgrond;
+  @media screen and (min-width: 480px) {
+    padding: 20px 36px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+  }
 }
 .feature-2 {
   position: absolute;
   top: 35px;
   left: 223px;
-  padding: 20px 33px;
+  padding: 20px 36px;
   background-color: $box-backgrond;
+  @media screen and (min-width: 480px) {
+    padding: 20px 36px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+  }
 }
 .feature-3 {
   position: absolute;
   top: 163px;
   left: 0px;
-  padding: 20px 33px;
+  padding: 20px 36px;
   background-color: $box-backgrond;
+  @media screen and (min-width: 480px) {
+    padding: 20px 36px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+  }
 }
 .feature-4 {
   position: absolute;
   top: 198px;
   left: 223px;
-  padding: 20px 33px;
+  padding: 20px 32px;
   background-color: $box-backgrond;
+  @media screen and (min-width: 480px) {
+    padding: 20px 32px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 20px 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 20px;
+  }
 }
 .box-text {
   margin-top: 6px;
   width: 128px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -147,7 +182,7 @@
   color: $primery-text;
 }
 .numeral {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
