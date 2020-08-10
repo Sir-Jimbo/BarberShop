@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\Slider-img-3.jpg":[["Slider-img-3.a340b51c.jpg","images/Slider-img-3.jpg"],"images/Slider-img-3.jpg"],"./..\\images\\Slider-img-3@2x.jpg":[["Slider-img-3@2x.ac7eaf43.jpg","images/Slider-img-3@2x.jpg"],"images/Slider-img-3@2x.jpg"],"./..\\images\\Slider-img-3-tablet.jpg":[["Slider-img-3-tablet.bcb2541b.jpg","images/Slider-img-3-tablet.jpg"],"images/Slider-img-3-tablet.jpg"],"./..\\images\\Slider-img-3-tablet@2x.jpg":[["Slider-img-3-tablet@2x.eeaa26e0.jpg","images/Slider-img-3-tablet@2x.jpg"],"images/Slider-img-3-tablet@2x.jpg"],"./..\\images\\Slider-img-3-desktop.jpg":[["Slider-img-3-desktop.209cc350.jpg","images/Slider-img-3-desktop.jpg"],"images/Slider-img-3-desktop.jpg"],"./..\\images\\Slider-img-3-desktop@2x.jpg":[["Slider-img-3-desktop@2x.f683d63f.jpg","images/Slider-img-3-desktop@2x.jpg"],"images/Slider-img-3-desktop@2x.jpg"],"./..\\images\\imgSectionServices.jpg":[["imgSectionServices.440cc172.jpg","images/imgSectionServices.jpg"],"images/imgSectionServices.jpg"],"./..\\images\\bbshop.jpg":[["bbshop.27cb0bcf.jpg","images/bbshop.jpg"],"images/bbshop.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\Slider-img-3.jpg":[["Slider-img-3.a340b51c.jpg","images/Slider-img-3.jpg"],"images/Slider-img-3.jpg"],"./..\\images\\Slider-img-3@2x.jpg":[["Slider-img-3@2x.ac7eaf43.jpg","images/Slider-img-3@2x.jpg"],"images/Slider-img-3@2x.jpg"],"./..\\images\\Slider-img-3-tablet.jpg":[["Slider-img-3-tablet.bcb2541b.jpg","images/Slider-img-3-tablet.jpg"],"images/Slider-img-3-tablet.jpg"],"./..\\images\\Slider-img-3-tablet@2x.jpg":[["Slider-img-3-tablet@2x.eeaa26e0.jpg","images/Slider-img-3-tablet@2x.jpg"],"images/Slider-img-3-tablet@2x.jpg"],"./..\\images\\Slider-img-3-desktop.jpg":[["Slider-img-3-desktop.209cc350.jpg","images/Slider-img-3-desktop.jpg"],"images/Slider-img-3-desktop.jpg"],"./..\\images\\Slider-img-3-desktop@2x.jpg":[["Slider-img-3-desktop@2x.f683d63f.jpg","images/Slider-img-3-desktop@2x.jpg"],"images/Slider-img-3-desktop@2x.jpg"],"./..\\images\\img480.png":[["img480.c82d325b.png","images/img480.png"],"images/img480.png"],"./..\\images\\img480@2x.png":[["img480@2x.df5ea620.png","images/img480@2x.png"],"images/img480@2x.png"],"./..\\images\\img768.png":[["img768.f297afc4.png","images/img768.png"],"images/img768.png"],"./..\\images\\img768@2x.png":[["img768@2x.b7079e69.png","images/img768@2x.png"],"images/img768@2x.png"],"./..\\images\\img1280.png":[["img1280.e5dab0c2.png","images/img1280.png"],"images/img1280.png"],"./..\\images\\img1280@2x.png":[["img1280@2x.eddf361f.png","images/img1280@2x.png"],"images/img1280@2x.png"],"./..\\images\\bbshop.jpg":[["bbshop.27cb0bcf.jpg","images/bbshop.jpg"],"images/bbshop.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62042" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50304" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
