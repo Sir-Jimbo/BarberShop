@@ -125,6 +125,12 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.4);
+
+    &:hover,
+    &:focus,
+    &:not(:placeholder-shown){
+            color:#ffffff;
+        }
 }
 
 .title{
