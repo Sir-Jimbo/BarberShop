@@ -1078,6 +1078,7 @@ ul {
 }
 @media screen and (min-width: 1280px) {
   .gallery-section {
+    max-width: 1280px;
     padding: 130px 0;
   }
 }
@@ -1102,7 +1103,7 @@ img {
 .citation-block {
   margin-bottom: 44px;
   margin-right: 63px;
-  /* @media screen and(min-width:1280px) {
+  /*@media screen and(min-width:1280px) {
     display: none;
   }*/
 }
