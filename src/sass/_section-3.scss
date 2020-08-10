@@ -1,0 +1,233 @@
+$primery-text: #303030;
+$secondary-text: #555555;
+$box-backgrond: #F7F7F7;
+b,
+p,
+ul,
+div,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+
+.section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #E5E5E5;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.text {
+  width: 418px;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  margin-bottom: 44px;
+  @media screen and (min-width: 480px) {
+    width: 418px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 500px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 50%;
+    left: 50%;
+  }
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.rectangle {
+  width: 60px;
+  border: 1px solid $primery-text;
+  margin-right: 20px;
+  transform: rotate(0deg);
+}
+.text-transform {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $primery-text;
+}
+.text-title {
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.17em;
+  letter-spacing: 0.05em;
+  color: $primery-text;
+}
+.text-section {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67em;
+  /* or 167% */
+  letter-spacing: 0.02em;
+  color: $secondary-text;
+}
+.box {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    top: 0%;
+    left: 240px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: -275px;
+    left: 115px;
+  }
+}
+.feature-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 20px 36px;
+  background-color: $box-backgrond;
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+  }
+}
+.feature-2 {
+  position: absolute;
+  top: 35px;
+  left: 223px;
+  padding: 20px 36px;
+  background-color: $box-backgrond;
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+    left: 240px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+    left: 200px;
+  }
+}
+.feature-3 {
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  padding: 20px 36px;
+  background-color: $box-backgrond;
+  @media screen and (min-width: 768px) {
+    padding: 20px 44px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 20px 24px;
+  }
+}
+.feature-4 {
+  width: 194px;
+  position: absolute;
+  top: 198px;
+  left: 223px;
+  padding: 20px 32px;
+  background-color: $box-backgrond;
+  @media screen and (min-width: 768px) {
+    width: 210px;
+    padding: 20px 40px;
+    left: 240px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+    padding: 20px 22px;
+    left: 200px;
+  }
+}
+.box-text {
+  margin-top: 6px;
+  width: 122px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  text-align: center;
+  color: $primery-text;
+}
+.feature-text {
+  margin-top: 6px;
+  width: 130px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  text-align: center;
+  color: $primery-text;
+}
+.numeral {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.36em;
+  letter-spacing: 0.05em;
+  color: $primery-text;
+}
+.plus {
+  position: absolute;
+  top: 7px;
+  width: 13px;
+  height: 22px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38em;
+  fill: #FF6C00;
+  margin-left: 2px;
+}
+.feature-plus {
+  display: flex;
+  justify-content: center;
+}
+
+
