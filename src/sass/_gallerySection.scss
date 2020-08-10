@@ -1,4 +1,12 @@
-
+.gallery-section {
+  padding: 84px 0;
+  @media screen and (min-width: 768px) {
+    padding: 100px 0;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 130px 0;
+  }
+}
 
 ul {
   list-style: none;
@@ -19,9 +27,9 @@ img {
 .citation-block {
   margin-bottom: 44px;
   margin-right: 63px;
-  @media screen and(min-width:1280px) {
+  /* @media screen and(min-width:1280px) {
     display: none;
-  }
+  }*/
 }
 .citation {
   display: block;
@@ -75,9 +83,9 @@ img {
     .gallery-item:not(:last-child) {
       margin-right: 30px;
     }
-    .gallery-item {
+    /*.gallery-item {
       margin-bottom: 134px;
-    }
+    }*/
   }
   @media screen and(min-width:768px) {
     display: flex;
