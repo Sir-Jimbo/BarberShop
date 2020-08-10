@@ -3,6 +3,170 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+/*b,
+p,
+ul,
+div,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+*/
+.section-features {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-features {
+  padding: 84px 31px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container-features {
+    padding: 100px 39px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-features {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    padding: 121px 125px 130px 155px;
+  }
+}
+
+.text-features h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-left: 80px;
+  margin-bottom: 20px;
+  position: relative;
+  color: #303030;
+}
+.text-features h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
+.text-features h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.anotation {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+@media screen and (max-width: 1279px) {
+  .anotation {
+    margin-bottom: 44px;
+  }
+}
+
+sup {
+  vertical-align: sub;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: super;
+  color: #ff6c00;
+  margin-left: 2px;
+}
+
+.achievs {
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-bottom: 6px;
+  color: #303030;
+}
+
+.description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+  color: #303030;
+}
+
+.feature-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-height: 331px;
+  max-width: 417px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .feature-list {
+    display: flex;
+    width: 450px;
+    margin-left: auto;
+  }
+}
+.feature-list .item-features {
+  background-color: #f7f7f7;
+  height: 133px;
+  width: calc((100% - 30px) / 2);
+  padding-top: 20px;
+}
+.feature-list .item-features:nth-child(2n) {
+  margin-left: 30px;
+}
+.feature-list .item-features:nth-child(2) {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.feature-list .item-features:nth-child(3) {
+  margin-top: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .text-features {
+    max-width: 500px;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .text-features {
+    min-width: 370px;
+    margin-left: 130px;
+  }
+}
+
 /* Цвет основного фона, меню, на кнопках, заголовках на тёмном фоне #FFFFFF;  */
 /* Цвет заголовка и подзаголовка на светлом фоне #303030;*/
 /* Цвет подзаголовка на тёмном фоне rgba(157, 164, 189, 0.6);*/
