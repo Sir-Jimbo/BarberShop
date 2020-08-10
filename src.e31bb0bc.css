@@ -1323,6 +1323,9 @@ p {
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
 }
+.message:hover, .message:focus, .message:not(:placeholder-shown) {
+  color: #ffffff;
+}
 
 .title {
   font-family: Raleway;
